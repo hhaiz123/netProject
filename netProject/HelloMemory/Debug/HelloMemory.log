@@ -1,0 +1,6 @@
+﻿  Alloctor.cpp
+e:\资料\net\netproject\hellomemory\memorymgr.hpp(67): warning C4477: “printf”: 格式字符串“%llx”需要类型“unsigned __int64”的参数，但可变参数 1 拥有了类型“MemoryBlock *”
+e:\资料\net\netproject\hellomemory\memorymgr.hpp(67): warning C4313: “printf”: 格式字符串中的“%x”与“MemoryBlock *”类型的参数 1 冲突
+e:\资料\net\netproject\hellomemory\memorymgr.hpp(93): warning C4018: “<”: 有符号/无符号不匹配
+  HelloMemory.vcxproj -> E:\资料\net\netProject\Debug\HelloMemory.exe
+  HelloMemory.vcxproj -> E:\资料\net\netProject\Debug\HelloMemory.pdb (Full PDB)

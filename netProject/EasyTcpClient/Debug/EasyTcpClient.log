@@ -1,0 +1,52 @@
+﻿  mainClient.cpp
+e:\资料\net\netproject\easytcpclient\mainclient.cpp(19): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+e:\资料\net\netproject\easytcpclient\mainclient.cpp(54): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+e:\资料\net\netproject\easytcpclient\mainclient.cpp(55): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(240): error C2672: “std::invoke”: 未找到匹配的重载函数
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(249): note: 参见对正在编译的函数 模板 实例化“void std::_LaunchPad<_Target>::_Execute<0>(std::tuple<void (__cdecl *)(int)> &,std::integer_sequence<std::_Ty,0>)”的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int)>,std::default_delete<std::tuple<void (__cdecl *)(int)>>>,
+              _Ty=std::size_t
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(247): note: 参见对正在编译的函数 模板 实例化“void std::_LaunchPad<_Target>::_Execute<0>(std::tuple<void (__cdecl *)(int)> &,std::integer_sequence<std::_Ty,0>)”的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int)>,std::default_delete<std::tuple<void (__cdecl *)(int)>>>,
+              _Ty=std::size_t
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(244): note: 编译类 模板 成员函数“void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept”时
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int)>,std::default_delete<std::tuple<void (__cdecl *)(int)>>>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(232): note: 参见对正在编译的函数 模板 实例化“void std::_LaunchPad<_Target>::_Run(std::_LaunchPad<_Target> *) noexcept”的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int)>,std::default_delete<std::tuple<void (__cdecl *)(int)>>>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(259): note: 参见对正在编译的类 模板 实例化“std::_LaunchPad<_Target>”的引用
+          with
+          [
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int)>,std::default_delete<std::tuple<void (__cdecl *)(int)>>>
+          ]
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thread(50): note: 参见对正在编译的函数 模板 实例化“void std::_Launch<std::unique_ptr<std::tuple<void (__cdecl *)(int)>,std::default_delete<_Ty>>>(_Thrd_t *,_Target &&)”的引用
+          with
+          [
+              _Ty=std::tuple<void (__cdecl *)(int)>,
+              _Target=std::unique_ptr<std::tuple<void (__cdecl *)(int)>,std::default_delete<std::tuple<void (__cdecl *)(int)>>>
+          ]
+  e:\资料\net\netproject\easytcpclient\mainclient.cpp(78): note: 参见对正在编译的函数 模板 实例化“std::thread::thread<void(__cdecl &)(int),,void>(_Fn)”的引用
+          with
+          [
+              _Fn=void (__cdecl &)(int)
+          ]
+d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(240): error C2893: 未能使函数模板“unknown-type std::invoke(_Callable &&,_Types &&...)”专用化
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(240): note: 用下列模板参数:
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(240): note: “_Callable=void (__cdecl *)(int)”
+  d:\program files (x86)\microsoft visual studio 14.0\vc\include\thr\xthread(240): note: “_Types={}”
+  EasyTcpClient.hpp
+  正在生成代码...
