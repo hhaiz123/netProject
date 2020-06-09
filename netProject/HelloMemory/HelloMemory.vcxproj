@@ -151,7 +151,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Alloctor.h" />
-    <ClInclude Include="MemoryMgr.hpp" />
+    <ClInclude Include="MemoryMgr.h" />
+    <ClCompile Include="MemoryMgr.cpp">
+      <FileType>CppHeader</FileType>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

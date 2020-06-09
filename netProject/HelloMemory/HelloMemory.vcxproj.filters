@@ -26,7 +26,10 @@
     <ClInclude Include="Alloctor.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="MemoryMgr.hpp">
+    <ClInclude Include="MemoryMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryMgr.cpp">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
